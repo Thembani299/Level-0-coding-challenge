@@ -16,4 +16,4 @@ def find_vowels(word):
             similar_vowels+=" "+i+","
             
     similar_vowels=similar_vowels[:-1]
-    print("Vowels: "+similar_vowels)
+    print("Vowels:"+similar_vowels)
