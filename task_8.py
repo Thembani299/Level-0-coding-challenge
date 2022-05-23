@@ -1,12 +1,12 @@
 def number_to_time(number):
-    hours=number//60
-    minutes=number%60
-    if hours ==1:
-        x="hour"
+    number_of_hours=number//60
+    number_of_minutes=number%60
+    if number_of_hours ==1:
+        hours="hour"
     else:
-        x="hours"
+        hours="hours"
     if minutes ==1:
-        y="minute"
+        minutes="minute"
     else:
-        y="minutes"
-    print(str(hours)+" "+x+", "+str(minutes)+" "+y)
+        minutes="minutes"
+    print(str(number_of_hours)+" "+hours+", "+str(number_of_minutes)+" "+minutes)
