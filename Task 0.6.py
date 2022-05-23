@@ -1,6 +1,6 @@
 
 def maximum(*argnumbers):
-    maximum=0
+    maximum=argnumbers[0]
     for i in argnumbers:
         if i>maximum:
             maximum=i
