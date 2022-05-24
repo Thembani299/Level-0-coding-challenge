@@ -1,7 +1,7 @@
 def common_letters():
-    print('Enter the first letter')
+    print("Enter the first letter")
     letter1=str(input())
-    print('Enter the second letter')
+    print("Enter the second letter")
     letter2=str(input())
     common_letters=""
     for i in letter1:   
@@ -18,5 +18,5 @@ def common_letters():
            letter1= letter1.replace(i,"",1)
 
     common_letters=common_letters[:-1]
-    print('Common letters:'+ common_letters)
+    print("Common letters:"+ common_letters)
 common_letters()
