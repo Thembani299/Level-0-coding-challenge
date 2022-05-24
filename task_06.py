@@ -1,9 +1,9 @@
-
 def maximum(*argnumbers):
-    maximum=argnumbers[0]
+    maxim=argnumbers[0]
     for i in argnumbers:
-        if i>maximum:
-            maximum=i
-    return maximum
+        if i>maxim:
+            maxim=i
+    return maxim
+print(maximum(-2,-3,-1))
 
 
