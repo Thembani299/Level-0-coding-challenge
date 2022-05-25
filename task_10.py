@@ -1,9 +1,5 @@
-def common_letters():
-    print("Enter the first letter")
-    letter1=str(input())
-    print("Enter the second letter")
-    letter2=str(input())
-    common_letters=""
+def common_letters(letter1,letter2):
+    common=""
     for i in letter1:   
         letter_capital=letter2.upper()
         letter_small=letter2.lower()
@@ -12,11 +8,12 @@ def common_letters():
 
         if check_common_small!=-1 or check_common_capital!=-1 and letter1.count(i)==1:
            i=i.lower()
-           common_letters+=" "+i+","
+           common+=" "+i+","
            letter2=letter2.replace(i,"")
         else:
            letter1= letter1.replace(i,"",1)
 
-    common_letters=common_letters[:-1]
-    print("Common letters:"+ common_letters)
-common_letters()
+    common=common[:-1]
+    print("Common letters:"+ common)
+
+common_letters("house","computers")
