@@ -13,9 +13,9 @@ def find_vowels(word):
             i=lower_vowels[similar_check_upper]
         similar_check_lower=lower_vowels.find(i)
         if similar_check_lower!=-1 and check_repeating==1:
-            similar_vowels+=" "+i+","       
+            similar_vowels+=" "+i+","
+            
     similar_vowels=similar_vowels[:-1]
     print("Vowels:"+ similar_vowels)
-print("Enter a string")
-string_word=str(input())
-find_vowels(string_word)
+
+find_vowels("Umuzi")
