@@ -1,8 +1,10 @@
-three=3
-four=4
-two=2
-three_by_two=3/2
-print(three)
-print(four)
-print(two)
-print(three_by_two)
+x = 1 + 1 * 2
+y = (1 + 1) * 2
+z = 1 + ( 1 * 2 )
+a = 1 + 1 * 2 / 2
+b = (1 + 1 * 2 ) / 2
+print(x)
+print(y)
+print(z)
+print(a)
+print(b)
